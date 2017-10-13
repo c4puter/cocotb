@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python2
 
 ''' Copyright (c) 2013 Potential Ventures Ltd
 Copyright (c) 2013 SolarFlare Communications Inc

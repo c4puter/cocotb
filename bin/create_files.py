@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 ''' Copyright (c) 2013 Potential Ventures Ltd
 Copyright (c) 2013 SolarFlare Communications Inc
@@ -47,7 +47,7 @@ def print_make_inc(path):
 
 def print_uninstall(path):
     uninstall = open("/tmp/cocotb_uninstall", "w")
-    file_contents = "#!/usr/bin/env python\n"
+    file_contents = "#!/usr/bin/env python2\n"
     file_contents = file_contents + "import sys\nfrom subprocess import call\n\n"
     file_contents = file_contents + "def remove():\n"
     file_contents = file_contents + "    print(\"Removing cocotb from " + path + "\")\n"
